@@ -1,0 +1,175 @@
+/* src/styles/components.css – Tambahan untuk komponen kecil */
+
+/* ===== ANIMASI ===== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ===== SECTION TITLE & SUBTITLE ===== */
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--color-primary);
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--gradient-gold);
+  margin: 14px auto 0;
+  border-radius: 2px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+  max-width: 640px;
+  margin: 16px auto 0;
+  line-height: 1.7;
+}
+
+/* ===== BADGE ===== */
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  background: rgba(212,175,55,0.15);
+  color: var(--color-secondary);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  border: 1px solid rgba(212,175,55,0.3);
+  letter-spacing: 0.5px;
+}
+
+/* ===== STATS BAR (HERO) ===== */
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.hero-stat-item {
+  text-align: center;
+  animation: countUp 0.6s ease-out;
+}
+
+.hero-stat-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--color-secondary);
+  line-height: 1;
+  display: block;
+}
+
+.hero-stat-label {
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.65);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* ===== FINAL CTA ===== */
+.cta-subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.8);
+  max-width: 600px;
+  margin: 16px auto 32px;
+  line-height: 1.7;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* ===== MOBILE HAMBURGER NAV ===== */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.nav-hamburger span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background: #fff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.nav-hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.nav-hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+.nav-hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.nav-mobile-menu {
+  display: none;
+  flex-direction: column;
+  background: rgba(10, 31, 68, 0.98);
+  padding: 16px 0 24px;
+  border-top: 1px solid rgba(212,175,55,0.15);
+}
+
+.nav-mobile-menu.open {
+  display: flex;
+}
+
+.nav-mobile-menu .nav-link {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.nav-mobile-cta {
+  margin: 16px 24px 0;
+}
+
+/* ===== RESPONSIVE UTILITIES ===== */
+@media (max-width: 768px) {
+  .section-title { font-size: 1.5rem; }
+  .section-subtitle { font-size: 0.95rem; }
+  .nav-hamburger { display: flex; }
+  .hero-stats { gap: 24px; }
+  .hero-stat-number { font-size: 1.8rem; }
+  .video-grid { grid-template-columns: 1fr !important; }
+  .mentors-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 480px) {
+  .hero-stats { gap: 16px; }
+  .hero-stat-number { font-size: 1.5rem; }
+}
