@@ -9,7 +9,7 @@ export function renderFooter(parent) {
           <h3>NextLevel</h3>
           <p>Membantu pelaku bisnis scale up secara terstruktur, aman, dan berkelanjutan melalui edukasi tata kelola keuangan, korporatisasi, dan pilar bisnis modern.</p>
           <div class="footer-social">
-            <a href="https://wa.me/6281358447267" target="_blank" aria-label="WhatsApp" class="footer-social-link">📱 WhatsApp</a>
+            <a href="https://wa.me/6282279382434" target="_blank" aria-label="WhatsApp" class="footer-social-link">📱 WhatsApp</a>
           </div>
         </div>
         <div class="footer-links">
@@ -22,7 +22,7 @@ export function renderFooter(parent) {
         </div>
         <div class="footer-links">
           <h4>Hubungi Kami</h4>
-          <a href="https://wa.me/6281358447267" target="_blank">WhatsApp Admin</a>
+          <a href="https://wa.me/6282279382434" target="_blank">WhatsApp Admin</a>
           <a href="#schedule">Jadwal Kelas</a>
           <a href="#mentors">Mentor Kami</a>
           <a href="#facilities">Fasilitas</a>

@@ -18,7 +18,7 @@ export function renderHero(parent) {
       <p class="hero-subheadline">Pelajari langkah demi langkah proses korporatisasi secara komprehensif — konversi ROE ke ROI, turunkan biaya modal (cost of capital) hingga di bawah 10% per tahun, dan bangun arsitektur bisnis sekelas perusahaan multinasional.</p>
 
       <div class="hero-cta">
-        <button class="button button-primary" onclick="window.open('https://wa.me/6281358447267?text=Halo%20NextLevel%2C%20saya%20tertarik%20untuk%20mendaftar%20Kelas%20Korporatisasi%20dan%20mendapatkan%20info%20lebih%20lanjut.', '_blank')">
+        <button class="button button-primary" onclick="window.open('https://wa.me/6282279382434?text=Halo%20NextLevel%2C%20saya%20tertarik%20untuk%20mendaftar%20Kelas%20Korporatisasi%20dan%20mendapatkan%20info%20lebih%20lanjut.', '_blank')">
           🔥 Daftar Kelas Sekarang
         </button>
         <button class="button button-outline" onclick="location.href='#curriculum'">

@@ -40,7 +40,7 @@ export function renderBenefits(parent) {
           <span class="banner-badge">🔑 Kunci Utama Scaling</span>
           <h3 class="banner-title">BIAYA MODAL (COST OF CAPITAL) UNTUK EKSPANSI BISA TURUN DI BAWAH 10%, HINGGA HANYA 2-3% PER TAHUN!</h3>
           <p class="banner-desc">"Perusahaan tidak akan pernah menjadi besar ketika Anda belum mampu menurunkan biaya modal."</p>
-          <button class="button button-primary" style="margin-top: 24px;" onclick="window.open('https://wa.me/6281358447267?text=Halo%20NextLevel%2C%20saya%20ingin%20tahu%20lebih%20detail%20tentang%20Kelas%20Korporatisasi.', '_blank')">Pelajari Lebih Lanjut</button>
+          <button class="button button-primary" style="margin-top: 24px;" onclick="window.open('https://wa.me/6282279382434?text=Halo%20NextLevel%2C%20saya%20ingin%20tahu%20lebih%20detail%20tentang%20Kelas%20Korporatisasi.', '_blank')">Pelajari Lebih Lanjut</button>
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ export function renderSchedule(parent) {
             </div>
           </div>
 
-          <button class="button button-primary" onclick="window.open('https://wa.me/6281358447267?text=Halo%20NextLevel%2C%20saya%20tertarik%20mendaftar%20dan%20ingin%20tahu%20jadwal%20terdekat%20Kelas%20Korporatisasi.', '_blank')">📩 Tanyakan Jadwal & Ketersediaan</button>
+          <button class="button button-primary" onclick="window.open('https://wa.me/6282279382434?text=Halo%20NextLevel%2C%20saya%20tertarik%20mendaftar%20dan%20ingin%20tahu%20jadwal%20terdekat%20Kelas%20Korporatisasi.', '_blank')">📩 Tanyakan Jadwal & Ketersediaan</button>
         </div>
         
         <div class="schedule-img-wrapper">

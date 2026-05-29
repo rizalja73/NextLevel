@@ -17,7 +17,7 @@ export function renderNavBar(parent) {
         <li><a class="nav-link" href="#facilities">Fasilitas</a></li>
         <li><a class="nav-link" href="#schedule">Jadwal</a></li>
       </ul>
-      <button class="button button-primary nav-cta-btn" onclick="window.open('https://wa.me/6281358447267?text=Halo%20NextLevel%2C%20saya%20ingin%20daftar%20Kelas%20Korporatisasi', '_blank')">
+      <button class="button button-primary nav-cta-btn" onclick="window.open('https://wa.me/6282279382434?text=Halo%20NextLevel%2C%20saya%20ingin%20daftar%20Kelas%20Korporatisasi', '_blank')">
         Daftar Sekarang
       </button>
       <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
@@ -35,7 +35,7 @@ export function renderNavBar(parent) {
       <a class="nav-link" href="#facilities">Fasilitas</a>
       <a class="nav-link" href="#schedule">Jadwal</a>
       <div class="nav-mobile-cta">
-        <button class="button button-primary" style="width:100%" onclick="window.open('https://wa.me/6281358447267?text=Halo%20NextLevel%2C%20saya%20ingin%20daftar%20Kelas%20Korporatisasi', '_blank')">
+        <button class="button button-primary" style="width:100%" onclick="window.open('https://wa.me/6282279382434?text=Halo%20NextLevel%2C%20saya%20ingin%20daftar%20Kelas%20Korporatisasi', '_blank')">
           Daftar Sekarang
         </button>
       </div>
