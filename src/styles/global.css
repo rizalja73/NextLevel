@@ -62,10 +62,18 @@ section.visible, footer.visible {
   padding: 14px 0;
 }
 .nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--color-secondary);
   letter-spacing: 1px;
+}
+.nav-logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
 }
 .nav-links {
   display: flex;

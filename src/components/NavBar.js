@@ -4,7 +4,10 @@ export function renderNavBar(parent) {
   nav.className = 'nav-bar';
   nav.innerHTML = `
     <div class="container nav-container">
-      <div class="nav-logo">NextLevel</div>
+      <div class="nav-logo">
+        <img src="./logo_positif_sukses-removebg-preview.png" alt="NextLevel Logo" class="nav-logo-img">
+        <span>NextLevel</span>
+      </div>
       <ul class="nav-links">
         <li><a class="nav-link" href="#hero">Beranda</a></li>
         <li><a class="nav-link" href="#what-you-learn">Materi Utama</a></li>
